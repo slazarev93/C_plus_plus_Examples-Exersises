@@ -1,0 +1,13 @@
+﻿  main.cpp
+D:\Git\C_plus_plus_Examples-Exersises\Exam prog from TopSystems\Exam prog from TopSystems\Figure.h(63,12): warning C4309: 'initializing': truncation of constant value
+D:\Git\C_plus_plus_Examples-Exersises\Exam prog from TopSystems\Exam prog from TopSystems\Figure.h(85,12): warning C4309: 'initializing': truncation of constant value
+D:\Git\C_plus_plus_Examples-Exersises\Exam prog from TopSystems\Exam prog from TopSystems\Figure.h(107,12): warning C4309: 'initializing': truncation of constant value
+D:\Git\C_plus_plus_Examples-Exersises\Exam prog from TopSystems\Exam prog from TopSystems\Figure.h(114,1): warning C4305: '=': truncation from 'double' to 'float'
+D:\Git\C_plus_plus_Examples-Exersises\Exam prog from TopSystems\Exam prog from TopSystems\Figure.h(115,1): warning C4305: '=': truncation from 'double' to 'float'
+D:\Git\C_plus_plus_Examples-Exersises\Exam prog from TopSystems\Exam prog from TopSystems\Figure.h(120,1): warning C4305: '=': truncation from 'double' to 'float'
+D:\Git\C_plus_plus_Examples-Exersises\Exam prog from TopSystems\Exam prog from TopSystems\Figure.h(121,1): warning C4305: '=': truncation from 'double' to 'float'
+D:\Git\C_plus_plus_Examples-Exersises\Exam prog from TopSystems\Exam prog from TopSystems\Figure.h(125,1): warning C4305: '=': truncation from 'double' to 'float'
+D:\Git\C_plus_plus_Examples-Exersises\Exam prog from TopSystems\Exam prog from TopSystems\Figure.h(126,1): warning C4305: '=': truncation from 'double' to 'float'
+D:\Git\C_plus_plus_Examples-Exersises\Exam prog from TopSystems\Exam prog from TopSystems\Figure.h(132,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Git\C_plus_plus_Examples-Exersises\Exam prog from TopSystems\Exam prog from TopSystems\Figure.h(146,12): warning C4309: 'initializing': truncation of constant value
+  Exam prog from TopSystems.vcxproj -> D:\Git\C_plus_plus_Examples-Exersises\Exam prog from TopSystems\Debug\Exam prog from TopSystems.exe
