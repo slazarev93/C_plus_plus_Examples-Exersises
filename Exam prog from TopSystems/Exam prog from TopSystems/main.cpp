@@ -8,7 +8,7 @@ void PrintMenu();
 int main()
 {
     Figure a;
-    int menu = 0;
+    unsigned int menu = 0;
 
     //Welcome
     cout << "Hi, if you want me, to create something, choose from what I can:" << endl;
@@ -18,25 +18,51 @@ int main()
     cout << "4 - triangle" << endl;
 
     cin >> menu;
+
+    while ( (menu > 4) || (menu == 0) )
+    {
+        cout << endl << "ERROR! Choose from the list!" << endl;
+        cin >> menu;
+    }
+    
     a.TypeSelect(menu);
 
     a.PrintFigure();
 
-    while (1)
+    do 
     {
         PrintMenu();
         cin >> menu;
 
-        if ((menu >= 1) && (menu <= 4))
-            a.TypeSelect(menu);
-        if (menu == 5)
-            a.ChangeParam();
-        if (menu == 0)
-            break;
+        switch (menu)
+        {
+            case 0:
+                break;
 
-        a.PrintFigure();
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            {
+                a.TypeSelect(menu);
+                a.PrintFigure();
+                break;
+            }
+        
+            case 5:
+            {
+                a.ChangeParam();
+                a.PrintFigure();
+                break;
+            }
 
-    }
+            default:
+            {
+                cout << endl << "ERROR! Choose from the list!" << endl;
+                break;
+            }
+        }
+    } while (menu != 0);
 }
 
 void PrintMenu()
