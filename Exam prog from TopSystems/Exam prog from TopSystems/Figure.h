@@ -109,6 +109,10 @@ public:
 		float R = 0;
 		float Kmin = 0;
 		float Kmax = 0;
+
+		// Kmin and Kmax are coefficients, found empirically for correct "drawing" circles
+		// For different radiuses these coefficients are different
+		// If radius are smaller than 6, circle become too ugly and can't be named circle
 		if (r < 7)
 		{
 			Kmin = 0.85;

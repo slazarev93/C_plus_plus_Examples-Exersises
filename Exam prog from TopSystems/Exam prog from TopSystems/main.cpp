@@ -1,3 +1,6 @@
+//This program prints to the console geometric figures with specified parameters.
+//default parametrs defines in class constructor, but can be changed earlier
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include "Figure.h"
@@ -16,10 +19,12 @@ int main()
     cout << "2 - rectangle" << endl;
     cout << "3 - circle" << endl;
     cout << "4 - triangle" << endl;
+    //Wellcome end
 
     cin >> menu;
 
     while ( (menu > 4) || (menu == 0) )
+    // Check for correct input
     {
         cout << endl << "ERROR! Choose from the list!" << endl;
         cin >> menu;
