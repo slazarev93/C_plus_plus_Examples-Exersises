@@ -1,5 +1,5 @@
 //This program prints to the console geometric figures with specified parameters.
-//default parametrs defines in class constructor, but can be changed earlier
+//default parametrs defines in class constructor, but can be changed later
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
